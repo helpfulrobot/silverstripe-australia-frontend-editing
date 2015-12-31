@@ -1,8 +1,8 @@
 <?php 
 class TestAnother extends SapphireTest
 {
-	function testSomething() {
-		$this->assertEquals(1, 1);
-	}
+    public function testSomething()
+    {
+        $this->assertEquals(1, 1);
+    }
 }
-?>
